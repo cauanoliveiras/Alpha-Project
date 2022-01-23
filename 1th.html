@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo-bckg/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>1th - Asas do Mundo</title>
+</head>
+<body>
+    <header class="primeira">
+        <img src="logo-bckg/adm-b.png" alt="logo">
+        <nav>
+            <a href="index.html">Menu</a>
+            <a href="5th.html">5th geração</a>
+            <a href="4.5th.html">4.5th geração</a>
+            <a href="4th.html">4th geração</a>
+            <a href="3th.html">3th geração</a>
+            <a href="2th.html" id="risco">2th geração</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Caças de primeira geração</h1>
+        <p>As aeronaves classificadas como caças de primeira geração são as primeiras tentativas de criação de aeronaves militares usando motores a jato. Alguns foram desenvolvidos durante os dias finais da Segunda Guerra Mundial e passaram por operações de combate muito limitadas.</p>
+        <section>
+            <h2>Messerschmitt Me 262</h2>
+            <img src="IMG/1th modific/me262.jpg" alt="Me 262">
+            <p>Messerschmitt Me 262 Schwalbe ("Andorinha") foi o primeiro caça a jato a entrar em uso operacional foi construido na Alemanha Nazista. Estava anos à frente em termos de projeto e desempenho, porém, não teve a devida prioridade, chegando tarde demais para mudar o curso da guerra. Os motores a jato, razão do elevado desempenho, apresentavam pouca confiabilidade, causando muitas baixas. As primeiras unidades a utilizá-lo operacionalmente foram de bombardeiro (por ordem de Hitler, os aviões foram modificados para carregar bombas), apresentando resultados sofríveis, devido à alta velocidade de aproximação.</p>
+            <ul>
+                <li>Preço: desconhecido</li>
+                <li>Alcance: 1.050 km</li>
+                <li>Velocidade: 900 km/h</li>
+                <li>Tamanho: 10x12 metros</li>
+            </ul>
+            <h2>Saab 29 Tunnan</h2>
+            <img src="IMG/1th modific/tunnan.jpg" alt="Tunnan">
+            <p>O Saab J 29 Tunnan foi um caça a jato sueco fabricado pela Saab. Foi a primeira de uma série de aeronaves projetadas na Suécia depois da Segunda Guerra Mundial. De modo a manter sua política externa de neutralidade, a Suécia decidiu que era necessário desenvolver aeronaves com a nova tecnologia dos motores a jato. Entrou em serviço em 1950, sendo operada até 1974. Foi substituído pelo Saab Draken.</p>
+            <ul>
+                <li>Preço: US$10 a 15 milhões</li>
+                <li>Alcance: 1.100 km</li>
+                <li>Velocidade: 1.060 km/h</li>
+                <li>Tamanho: 10x11 metros</li>
+            </ul>
+            <h2>Yakovlev Yak-23</h2>
+            <img src="IMG/1th modific/yak23.jpg" alt="Yak-23">
+            <p>O Yakovlev Yak-23 (em russo: Яковлев Як-23) foi um caça a jato soviético. Foi desenvolvido a partir do Yak-17 no final da década de 1940 e utilizava uma cópia de engenharia reversa de um motor britânico. Não foi construído em larga escala e tinha desempenho inferior ao Mikoyan-Gurevich MiG-15. Muitos Yak-23 foram exportados para nações do Pacto de Varsóvia e permaneceu em serviço durante a década de 1950, apesar de algumas unidades ainda terem sido utilizadas na década seguinte.</p>
+            <ul>
+                <li>Preço: desconhecido</li>
+                <li>Alcance: 1.200 km</li>
+                <li>Velocidade: 925 km/h</li>
+                <li>Tamanho: 8x9 metros</li>
+            </ul>
+            <h2>Lockheed P-80</h2>
+            <img src="IMG/1th modific/p80.jpg" alt="P-80">
+            <p>O P-80/F-80 Shooting Star foi o primeiro avião a jato da Força Aérea Americana a ser usado em combate, a ultrapassar a velocidade de 560mph (901 km/h) em voo nivelado, e o primeiro a ser construído em grandes quantidades. Possivelmente terá sido o mais bem sucedido caça a jato de primeira geração. Foi enviado para a Europa, para demonstração durante os últimos meses da Segunda Guerra Mundial, não chegando a entrar em combate. Para mostrar o seu valor, teve que esperar pela Guerra da Coreia, uns anos mais tarde.</p>
+            <ul>
+                <li>Preço: US$110 mil</li>
+                <li>Alcance: 1.271 km</li>
+                <li>Velocidade: 928 km/h</li>
+                <li>Tamanho: 10x12 metros</li>
+            </ul>
+            <h2>Mikoyan-Gurevich MiG-17</h2>
+            <img src="IMG/1th modific/mig17.jpg" alt="MiG-17">
+            <p>O Mikoyan-Gurevich MiG-17 (em russo: Микоян и Гуревич МиГ-17) foi um avião de caça desenvolvido para a União Soviética por Artem Mikoyan e Mikhail Gurevich. Entrou ao serviço em Outubro de 1952, sendo ainda hoje utilizado por algumas Forças-Aéreas, apesar de ser subsónico. O Mig-17 é parecido com o Mig-15, como se fosse uma atualização do Mig-15.</p>
+            <ul>
+                <li>Preço: desconhecido</li>
+                <li>Alcance: 2.060 km</li>
+                <li>Velocidade: 1.145 km/h </li>
+                <li>Tamanho: 11x9 metros</li>
+            </ul>
+        </section>
+    </main>
+    <button onclick="btop()" id="topo">&#9650;</button>
+    <script>
+        window.onscroll = function(){
+            scroll();
+        }
+        function scroll(){
+            var btn = document.getElementById("topo");
+            if(document.documentElement.scrollTop > 200){
+                btn.style.display = "block";
+            }else{
+                btn.style.display = "none";
+            }
+        }
+        function btop(){
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

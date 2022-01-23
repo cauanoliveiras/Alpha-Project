@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo-bckg/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>4th - Asas do Mundo</title>
+</head>
+<body>
+    <header class="quarta">
+        <img src="logo-bckg/adm-b.png" alt="logo">
+        <nav>
+            <a href="index.html">Menu</a>
+            <a href="5th.html">5th geração</a>
+            <a href="4.5th.html">4.5th geração</a>
+            <a href="3th.html">3th geração</a>
+            <a href="2th.html">2th geração</a>
+            <a href="1th.html" id="risco">1th geração</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Caças de quarta geração</h1>
+        <p>Projetos de quarta geração são fortemente influenciados pelas lições aprendidas com a geração anterior de aeronaves de combate. Os mísseis ar-ar de longo alcance, originalmente pensados ​​para tornar a luta obsoleta, revelaram-se menos influentes do que o esperado, precipitando uma ênfase renovada na manobrabilidade.</p>
+        <section>
+            <h2>Dassault-Breguet Mirage 2000</h2>
+            <img src="IMG/4th modific/Mirage 2000.jpg" alt="Mirage">
+            <p>O Mirage 2000 é um caça francês que foi desenvolvido francesa Dassault Aviation para a Armée de l'Air em substituição ao programa Avion de Combat Futur. A Dassault Aviation visava atender às necessidades francesas e a repetir o sucesso comercial e internacional alcançado pelo Mirage III, competindo com o americano F-16. Atualmente, está em processo de substituição pelo Dassault Rafale</p>
+            <ul>
+                <li>Preço: US$23 milhões</li>
+                <li>Alcance: 1.550 km</li>
+                <li>Velocidade: 2.530 km/h</li>
+                <li>Tamanho: 14x9 metros</li>
+            </ul>
+            <h2>Grumman F-14</h2>
+            <img src="IMG/4th modific/F-14.jpg" alt="F-14">
+            <p>O Grumman F-14 Tomcat é um caça supersônico, impulsionado por dois motores, provido de asas de geometria variável e tripulado por dois elementos. Projetado e produzido pela Grumman Aerospace Corporation para a Marinha dos Estados Unidos, ele foi criado para suplantar o McDonnell Douglas F-4 Phantom II. Ao longo de trinta e cinco anos de serviço ativo, a bordo dos porta aviões norte americanos, foi provavelmente o caça de superioridade aérea mais importante da chamada guerra fria.</p>
+            <ul>
+                <li>Preço: US$38 milhões</li>
+                <li>Alcance: 2.963 km</li>
+                <li>Velocidade: 2.485 km/h</li>
+                <li>Tamanho: 19x19 metros</li>
+            </ul>
+            <h2>Mikoyan-Gurevich MiG-31</h2>
+            <img src="IMG/4th modific/mig-31.jpg" alt="MiG-31">
+            <p>O Mikoyan-Gurevich MiG-31 é um caça russo de alta performance, capacitado para interceptar e destruir múltiplos alvos aéreos a altitudes entre os 50 e os 28 mil metros, em todas as condições atmosféricas de dia e de noite. O desenvolvimento deste interceptor começou em 1970, baseado na célula do MIG-25 Foxbat, voou pela primeira vez em 16 de Setembro de 1975 e terão sido construídos desde 1979 505 exemplares nas suas várias versões.</p>
+            <ul>
+                <li>Preço: US$60 milhões</li>
+                <li>Alcance: 3.300 km</li>
+                <li>Velocidade: 3.030 km/h</li>
+                <li>Tamanho: 23x13 metros</li>
+            </ul>
+            <h2>Sukhoi Su-27</h2>
+            <img src="IMG/4th modific/Su-27.jpg" alt="Su-27">
+            <p>O Sukhoi Su-27 é um caça russo de motores duplos de supermanobrabilidade desenvolvido pela Sukhoi. Foi desenvolvido como competidor direto dos caças de quarta geração dos Estados Unidos como o Grumman F-14 Tomcat e F-15 Eagle, possuindo sofisticada aviônica e supermanobrabilidade. Foi desenhado para superioridade aérea, mas suas variantes mais modernas tem capacidade e eficiência para quase todos os tipos de operações aéreas bélicas. O Su-27 entrou em serviço na Força Aérea Soviética em 1985. Seu principal objetivo era a defesa aérea contra bombardeios americanos.</p>
+            <ul>
+                <li>Preço: US$30 milhões</li>
+                <li>Alcance: 3.530 km</li>
+                <li>Velocidade: 2.500 km/h</li>
+                <li>Tamanho: 22x15 metros</li>
+            </ul>
+            <h2>Panavia Tornado</h2>
+            <img src="IMG/4th modific/Tornado.jpg" alt="Tornado">
+            <p>O Panavia Tornado é uma família de caças bimotor monoplano de geometria variável, desenvolvido em conjunto pelo Reino Unido, Alemanha e Itália. Existem três versões primárias do Tornado sendo elas Tornado IDS - versão de ataque à superfície, Tornado ADV - versão de intercepção e superioridade aérea, Tornado ECR - versão de reconhecimento e de combate electrónico. Tornado participou com a Força Aérea Real Britânica no Iraque, durante a operação Tempestade do Deserto.</p>
+            <ul>
+                <li>Preço: US$60 milhões</li>
+                <li>Alcance: 1.390 km</li>
+                <li>Velocidade: 2.400 km/h</li>
+                <li>Tamanho: 17x14 metros</li>
+            </ul>
+        </section>
+    </main>
+    <button onclick="btop()" id="topo">&#9650;</button>
+    <script>
+        window.onscroll = function(){
+            scroll();
+        }
+        function scroll(){
+            var btn = document.getElementById("topo");
+            if(document.documentElement.scrollTop > 200){
+                btn.style.display = "block";
+            }else{
+                btn.style.display = "none";
+            }
+        }
+        function btop(){
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
